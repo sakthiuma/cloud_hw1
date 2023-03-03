@@ -12,7 +12,7 @@ def os_connection_setup():
     host = "search-lex-bot-elasticsearch-jz6wdka5rp55mtntkkxqu26vva.us-east-1.es.amazonaws.com"
     port = 443
     #commented out the authentication as git guardian was throwing an issue.
-    #auth = ("sakthi", "Sakthi123@")
+    #auth = ("sakthi", "")
     
     client = OpenSearch(
         hosts = [{"host": host, "port": port}],
